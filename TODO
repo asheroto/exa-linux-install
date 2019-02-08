@@ -1,0 +1,2 @@
+Add bash completions setup:
+For bash, you will need to install bash-completion first. Then, download exa’s bash completions and put them in the bash-completion directory. This varies between OSes, but is likely to be /etc/bash_completion.d, so try that.
