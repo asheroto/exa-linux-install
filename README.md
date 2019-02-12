@@ -1,4 +1,8 @@
-This project contains scripts to install or uninstall exa.
+## This project contains scripts to install or uninstall exa.
+
+exa website:    https://the.exa.website/
+
+exa repository: https://github.com/ogham/exa
 
 ## Installing Exa
 If you don't already have the repository, get the scripts by executing:
