@@ -1,3 +1,4 @@
+
 ## This project contains scripts to install or uninstall exa.
 
 exa website:    https://the.exa.website/
@@ -25,3 +26,13 @@ Super easy, execute:
 
     sh remove-exa.sh
 
+## Usage w/alias example
+Recommended: replace the **ls** command with an alias to exa.
+
+Example addition to .bashrc:
+
+    alias ls="exa --group-directories-first --time-style=long-iso -l"
+    export $ls
+So then when you type **ls**, you get:
+![
+](https://github.com/ASHERH4X/exa-linux-install/blob/master/alias-screenshot.png?raw=true)
