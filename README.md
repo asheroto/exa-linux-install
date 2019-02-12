@@ -34,5 +34,6 @@ Example addition to .bashrc:
     alias ls="exa --group-directories-first --time-style=long-iso -l"
     export $ls
 So then when you type **ls**, you get:
+
 ![
 ](https://github.com/ASHERH4X/exa-linux-install/blob/master/alias-screenshot.png?raw=true)
