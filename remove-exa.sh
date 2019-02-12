@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Check if exa already exists
 if ! which exa >/dev/null; then
   echo 'exa is not installed' >&2
