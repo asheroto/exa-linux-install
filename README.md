@@ -29,7 +29,7 @@ Super easy, execute:
 ## Usage w/alias example
 Recommended: replace the **ls** command with an alias to exa.
 
-Example addition to .bashrc:
+Example addition to .bash_profile:
 
     alias ls="exa --group-directories-first --time-style=long-iso -l"
     export ls
