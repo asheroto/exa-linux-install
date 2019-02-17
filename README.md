@@ -32,7 +32,7 @@ Recommended: replace the **ls** command with an alias to exa.
 Example addition to .bashrc:
 
     alias ls="exa --group-directories-first --time-style=long-iso -l"
-    export $ls
+    export ls
 So then when you type **ls**, you get:
 
 ![
