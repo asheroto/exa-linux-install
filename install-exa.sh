@@ -1,16 +1,16 @@
 #!/bin/bash
 
 # Check if exa already exists
-if which exa >/dev/null; then
-  echo 'Error: exa is already installed.' >&2
-  exit 1
+if command -v exa == null; then
+  echo 'Error: exa is already installed.'
+  exit
 fi
 
 echo
 
 echo "Creating temporary install directory and entering into it..."
 mkdir tmp_install_exa_linux
-cd tmp_install_exa_linux
+cd tmp_install_exa_linux || exit
 echo
 
 echo "Downloading latest exa Linux binary..."
