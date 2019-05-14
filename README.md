@@ -10,9 +10,9 @@ Exa is available in many distributions and is well explained on its website, how
 It is first recommended to  attempt installing exa in the traditional manner, so consider this a backup method.
 
 ## Git / Novice Note!
-Like any repo here on GitHub, you must have **git** installed in order to make this work.  It's as simple as this...
+Like any repo here on GitHub, you must have **git** installed in order to make this work, other than that, only **curl** it required. Both can be installed in just one line. It's as simple as this...
 
-    apt update && apt install git -y
+    apt update && apt install git curl -y
     
 
 ## Installing Exa
