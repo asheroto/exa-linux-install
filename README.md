@@ -12,7 +12,7 @@ It is first recommended to  attempt installing exa in the traditional manner, so
 ## Git / Novice Note!
 Like any repo here on GitHub, you must have **git** installed in order to make this work.  It's as simple as this...
 
-    apt update -y && apt install git -y
+    apt update && apt install git -y
     
 
 ## Installing Exa
