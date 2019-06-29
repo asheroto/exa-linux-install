@@ -33,7 +33,7 @@ mv exa-linux-x86_64 exa
 echo
 
 echo "Moving exa into /usr/local/bin..."
-mv exa /usr/local/bin
+mv exa /usr/bin
 echo
 
 echo "Removing temporary install directory..."
