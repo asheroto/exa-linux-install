@@ -1,12 +1,11 @@
 #!/bin/bash
 
 # Check if exa already exists
-if ! which exa >/dev/null; then
-  echo 'exa is not installed' >&2
-  exit 1
+if ! command -v exa >/dev/null; then
+  echo "Error: exa is not installed";
+  exit
 fi
 
 # Removing binary
-rm /usr/local/bin/exa -f
-
-echo "exa has been removed"
+rm /usr/bin/exa
+echo "Exa has been removed."
