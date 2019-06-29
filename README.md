@@ -12,7 +12,7 @@ It is first recommended to  attempt installing exa in the traditional manner, so
 ## Git / Novice Note!
 Like any repo here on GitHub, you must have **git** installed in order to make this work, other than that, only **curl** it required. Both can be installed in just one line. It's as simple as this...
 
-    apt update && apt install git curl -y
+    apt update && apt upgrade -y
     
 
 ## Installing Exa
