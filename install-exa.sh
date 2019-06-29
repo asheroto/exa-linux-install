@@ -32,8 +32,8 @@ echo "Renaming binary..."
 mv exa-linux-x86_64 exa
 echo
 
-echo "Moving exa into /usr/local/bin..."
-mv exa /usr/bin
+echo "Moving exa into /usr/bin..."
+mv exa /usr/bin/
 echo
 
 echo "Removing temporary install directory..."
