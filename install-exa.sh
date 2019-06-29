@@ -2,8 +2,15 @@
 
 # Check if exa already exists
 if command -v exa == null; then
-  echo 'Error: exa is already installed.'
+  echo 'Error: exa is already installed. If Exa is not working, please open an Issue on GitHub.'
   exit
+fi
+
+# Check if /usr/bin directory exists
+if [ ! -d /usr/bin ]
+then
+    echo "Error: Directory /usr/bin does not exist. Please open an Issue on GitHub."
+    exit
 fi
 
 echo
@@ -36,12 +43,7 @@ echo "Moving exa into /usr/bin..."
 mv exa /usr/bin/
 echo
 
-echo "Removing temporary install directory..."
-cd ../
-rm tmp_install_exa_linux -rf
-echo
-
-echo "Installation complete. Type 'exa --help' for more information."
-echo
-
 exa -v
+
+echo "Installation complete. If you had an issue or see a 'not found' error message, please open an Issue on GitHub."
+echo
