@@ -43,7 +43,7 @@ echo "Moving exa into /usr/bin..."
 mv exa /usr/bin/
 echo
 
-exa -v
-
 echo "Installation complete. If you had an issue or see a 'not found' error message, please open an Issue on GitHub."
 echo
+
+exa -v
