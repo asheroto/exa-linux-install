@@ -8,6 +8,9 @@ fi
 
 echo
 
+echo "Installing prerequisites..."
+apt upgrade git curl unzip -y
+
 echo "Creating temporary install directory and entering into it..."
 mkdir tmp_install_exa_linux
 cd tmp_install_exa_linux || exit
