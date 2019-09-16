@@ -50,4 +50,4 @@ Example addition to .bash_profile:
 So then when you type **ls**, you get:
 
 ![
-](https://github.com/ASHERH4X/exa-linux-install/blob/master/alias-screenshot.png?raw=true)
+](https://github.com/asheroto/exa-linux-install/blob/master/alias-screenshot.png?raw=true)
