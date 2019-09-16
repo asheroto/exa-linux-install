@@ -1,4 +1,3 @@
-
 ## This project contains scripts to install or uninstall exa.
 
 exa website:    https://the.exa.website/
@@ -20,7 +19,7 @@ Like any repo here on GitHub, you must have **git** installed in order to make t
 You simply need git to install exa. If you are a novice at this, make sure to follow the section above this one first.
 Once you have git and everything is updated, run these commands...
 
-    git clone https://github.com/ASHERH4X/exa-linux-install.git
+    git clone https://github.com/asheroto/exa-linux-install.git
     cd exa-linux-install
     sh ./install-exa.sh
 
