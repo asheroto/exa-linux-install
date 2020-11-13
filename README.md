@@ -27,7 +27,7 @@ To confirm exa was installed properly, check its version by executing:
 
     exa -v
 
-If you see something like **exa v0.8.0** then you're good to go!
+If you see something like **exa v0.9.0** then you're good to go!
 
 ## Uninstalling exa
 Super easy, execute:
